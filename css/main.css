@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+  background-color: #f0eee8;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.link-card {
+  display: inline-block;
+  padding: 1rem;
+  border: solid 3px #9a816d;
+  background-color: #dcd4cd;
+  border-radius: 8px;
+  color: #512200;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.link-card h2 {
+  font-family: Dosis, sans-serif;
+  margin: 0;
+}
+
+dl {
+  margin-bottom: 1rem;
+}
+
+dt {
+  display: inline-block;
+  width: 8em;
+}
+
+dd {
+  display: inline-block;
+  margin: 0;
+  min-width: 12em;
+  font-style: italic;
+}
+
+.btn {
+  display: inline-block;
+  padding: .4em .75em .5em;
+  background-color: #785439;
+  border-radius: 3px;
+  color: #fff;
+  text-decoration: none;
+  font-family: Dosis, sans-serif;
+  font-weight: 600;
+}
+
+a .btn{
+  text-align: center;
+  margin: 1rem;
+}
