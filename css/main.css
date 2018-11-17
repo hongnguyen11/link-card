@@ -9,15 +9,15 @@ html {
 }
 
 .link-card {
-  text-decoration: none;
   color: #512200;
-}
-
-div {
   background-color: #dcd4cd;
   border: 3px solid #9a816d;
   padding: 1rem;
   border-radius: 3px;
+}
+
+a.link-card {
+    text-decoration: none;
 }
 
 .link-card:hover {
@@ -46,11 +46,7 @@ div {
   font-style: italic;
 }
 
-nav {
-  text-align: center;
-}
-
-.btn {
+a .btn {
   background-color: #785439;
   padding: .4em .75em .5em;
   color: #fff;
@@ -58,8 +54,9 @@ nav {
   font-family: Dosis, sans-serif;
   border-radius: 8px;
   font-size: 1.125rem;
+  text-align: center;
 }
 
-.btn:hover {
+a .btn:hover {
   background-color: #512200;
 }
